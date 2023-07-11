@@ -4,25 +4,28 @@
         <style>
             @keyframes anim {
                 0% { background-color: skyblue;
-                    }
-                25% {background-color: #786ce9;
-                    }
+                    animation-delay: 0s;}
+                
+                    
                 50% {background-color: rgb(44, 212, 95);
-                    margin-left: 40%;}
-                75% {background-color: rgb(204, 46, 54); 
-                    } 
+                    margin-left: 40%; animation-delay: 2s;}
+                
+                    
                 100% {background-color: rgb(204, 238, 172);
-                    margin-left: 80%;}           
+                    margin-left: 80%; animation-delay: 4s; }           
                 
             }
 
         .anim {
-            width: 300px;
-            height: 300px;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
             background: skyblue;
             animation-name: anim;
             animation-duration: 8s;
             animation-iteration-count: infinite;
+           
+            
 
             
             
